@@ -54,7 +54,7 @@ export const UseAxiosGet = (searchValue: string) => {
       },
       error: false,
     });
-    let filmsUrl = `https://swapi.dev/api/vehicles/?search=${searchValue}`;
+    let filmsUrl = `https://swapi.dev/api/films/?search=${searchValue}`;
     let peopleUrl = `https://swapi.dev/api/people/?search=${searchValue}`;
     let planetsUrl = `https://swapi.dev/api/planets/?search=${searchValue}`;
     let speciesUrl = `https://swapi.dev/api/species/?search=${searchValue}`;
